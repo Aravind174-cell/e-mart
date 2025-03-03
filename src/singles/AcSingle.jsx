@@ -17,6 +17,7 @@ const AcSingle = () => {
    const {addToCart, cartItems} = useCart()
    console.log("The cartItems",cartItems)
    console.log("this  is aravind")
+   console.log("This is aravind-3")
 
    const product = mobileData.find((item) => item.id === id)
 
